@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-from Maths.mathematics import summation, substraction, multiplication
+from Math.mathematics import summation, substraction, multiplication
 
 app = Flask("Mathematics Problem Solver")
 
